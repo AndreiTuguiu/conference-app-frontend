@@ -2,3 +2,4 @@
 
 export const yourEntityPager = 'yourEntityPager'
 export const yourEntityListFilter = 'yourEntityListFilter'
+export const emailKey = "email"
