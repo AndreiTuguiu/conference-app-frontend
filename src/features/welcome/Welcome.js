@@ -13,12 +13,13 @@ function Welcome() {
 
   const [email, setEmail] = useEmail()
   const [inputValue, setInputValue] = useState(email)
-
+  const [isValid, setIsValid] = useState(true)
   const handleInputChange = useCallback(e => setInputValue(e.target.value), [])
 
   const handleButtonClick = useCallback(() => {
     const isEmailValid = validateEmail(inputValue)
     setEmail(isEmailValid ? inputValue : emptyString)
+    setIsValid(isEmailValid)
   }, [setEmail, inputValue])
   const handleKeyDown = useCallback(
     event => {
@@ -46,13 +47,15 @@ function Welcome() {
           <CustomTextField
             fullWidth
             endAdornment={
-              <CustomIconButton size='small' color='theme' aria-label='go' onClick={handleButtonClick}>
+              <CustomIconButton size='small' color='theme' aria-label='go' onClick={handleButtonClick} >
                 <KeyboardReturnIcon fontSize='small' />
               </CustomIconButton>
             }
             onKeyDown={handleKeyDown}
             value={inputValue}
             onChange={handleInputChange}
+            helperText={!isValid && t("LandingPage.BadEmail")}
+            error={!isValid}
           />
         </Grid>
       </Grid>
