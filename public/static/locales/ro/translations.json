@@ -15,6 +15,9 @@
       "Subtitle": "Te rog introdu email-ul personal:",
       "BadEmail": "Acesta nu este un email valid!"
   },
+  "UserMenu":{
+    "User":"Utilizator"
+  },
   "Tooltips": {
     "Logout": "Iesire",
     "HidePassword": "Ascunde parola",

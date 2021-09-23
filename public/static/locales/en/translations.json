@@ -22,6 +22,9 @@
       "Subtitle": "Please enter your email:",
       "BadEmail": "This is not a valid email!"
   },
+  "UserMenu":{
+    "User":"User"
+  },
   "Tooltips": {
     "Logout": "Logout",
     "HidePassword": "Hide password",
