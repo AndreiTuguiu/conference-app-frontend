@@ -9,6 +9,7 @@ import { emailKey } from "./cacheKeyFunctions"
 // Here you define the default values for local apollo state (@client only values)
 // https://www.apollographql.com/docs/react/local-state/local-state-management/
 
+
 const yourEntityDefaultPager = {
   afterId: null,
   totalCount: 0,
@@ -19,7 +20,7 @@ const yourEntityDefaultPager = {
 }
 const yourEntityDefaultListFilter = emptyObject
 
-const emailValue = { email: emptyString }
+const emailValue = { email: "yep@yep.yep" }
 
 
 export const defaults = {
