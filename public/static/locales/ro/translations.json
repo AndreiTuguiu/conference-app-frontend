@@ -32,11 +32,23 @@
     "Edit":"Editeaza",
     "Delete":"Sterge"
   },
+  "Conference":{
+    "Info":"Informatii",
+    "Location":"Locatie",
+    "Speakers":"Oratori",
+    "Name": "Nume conferinta",
+    "StartDate": "Data inceput",
+    "EndDate": "Data sfarsit",
+   "Type": "Tipul conferintei",
+   "Category": "Categorie"
+  },
   "General": {
     "Buttons": {
       "ApplyFilters": "Aplica filtre",
       "ResetFilters": "Reseteaza filtre",
-      "AddConference":"Adauga Conferinta"
+      "AddConference":"Adauga Conferinta",
+      "Save":"Salveaza",
+      "AddSpeaker":"Adauga orator"
     }
   },
   "UserMenu": {
@@ -76,5 +88,14 @@
       "MinCharacters": "Lungimea trebuie sa fie mai mare decat {{min}}",
       "Unique": "Valoarea pentru {{selector}} trebuie sa fie unica"
     }
+  },
+  "Location": {
+    "Name": "Nume",
+    "Address": "Adresa",
+    "Country": "Tara",
+    "County": "Judet",
+    "City": "Oras",
+    "Latitude": "Latitudine",
+    "Longitude": "Longitudine"
   }
 }

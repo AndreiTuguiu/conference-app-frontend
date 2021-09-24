@@ -43,8 +43,20 @@
     "Buttons": {
       "ApplyFilters": "Apply filters",
       "ResetFilters": "Reset filters",
-      "AddConference":"Add conference"
+      "AddConference":"Add conference",
+      "Save":"Save",
+      "AddSpeaker":"Add Speaker"
     }
+  },
+  "Conference":{
+    "Info":"Info",
+    "Location":"Location",
+    "Speakers":"Speakers",
+    "Name": "Conference name",
+    "StartDate": "Start date",
+    "EndDate": "End date",
+    "Type": "Conference type",
+    "Category": "Category"
   },
   "UserMenu":{
     "User":"User"
@@ -83,5 +95,14 @@
       "MinCharacters": "The length must be greater than {{min}}",
       "Unique": "The value of {{selector}} must be unique"
     }
+  },
+  "Location": {
+    "Name": "Name",
+    "Address": "Address",
+    "Country": "Country",
+    "County": "County",
+    "City": "City",
+    "Latitude": "Latitude",
+    "Longitude": "Longitude"
   }
 }
