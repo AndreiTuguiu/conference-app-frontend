@@ -40,7 +40,7 @@
     "StartDate": "Data inceput",
     "EndDate": "Data sfarsit",
    "Type": "Tipul conferintei",
-   "Category": "Categorie"
+   "Categories": "Categorie"
   },
   "General": {
     "Buttons": {
@@ -48,7 +48,8 @@
       "ResetFilters": "Reseteaza filtre",
       "AddConference":"Adauga Conferinta",
       "Save":"Salveaza",
-      "AddSpeaker":"Adauga orator"
+      "AddSpeaker":"Adauga orator",
+      "DeleteSpeaker": "Sterge orator"
     }
   },
   "UserMenu": {
@@ -97,5 +98,11 @@
     "City": "Oras",
     "Latitude": "Latitudine",
     "Longitude": "Longitudine"
+  },
+  "Speaker": {
+    "Name": "Nume",
+    "Nationality": "Nationalitate",
+    "Rating": "Rating",
+    "MainSpeaker": "Orator principal"
   }
 }
