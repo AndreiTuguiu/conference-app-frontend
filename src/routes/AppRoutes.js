@@ -27,6 +27,7 @@ export default function AppRoutes() {
       <CustomRoute isPrivate={false} exact path='/helloWorld' component={HelloWorld} />
       <CustomRoute isPrivate={false} exact path='/welcome' component={Welcome} />
       <CustomRoute isPrivate={false} exact path='/myConference/:id(new)' component={MyConferenceContainer} />
+      <CustomRoute isPrivate={false} exact path='/myConference/:id(\d+)' component={MyConferenceContainer} />
       <CustomRoute exact path='/settings' component={Settings} />
       <Redirect exact from='/' to='/dashboard' />
       <CustomRoute isPrivate={false} exact path='/forbidden' component={Forbidden} />
