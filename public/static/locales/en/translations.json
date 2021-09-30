@@ -29,7 +29,7 @@
       "StartDate": "Start date",
       "EndDate":"End Date"
       },
-      "Speaker":"Speaker",
+      "Speaker":"Speaker: ",
       "Attend": "Attend",
       "Join": "Join",
       "Withdraw": "Withdraw",
