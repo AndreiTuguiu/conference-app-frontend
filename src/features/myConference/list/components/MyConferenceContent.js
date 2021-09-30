@@ -21,7 +21,7 @@ const MyConferenceContent = props => {
 
 
     return (
-        <Grid container>
+        <Grid container spacing={2}>
             <Grid item xs={12}>
                 <Typography>{`${startDateFormatted} - ${endDateFormatted}`}</Typography>
             </Grid>

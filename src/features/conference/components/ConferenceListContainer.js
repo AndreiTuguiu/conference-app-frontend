@@ -10,8 +10,8 @@ import { useEmail } from 'hooks/useEmail'
 import Pagination from '@bit/totalsoft_oss.react-mui.pagination'
 import { useFooter } from 'providers/AreasProvider'
 import { PagesRounded } from '@material-ui/icons'
+import { extractPager } from 'utils/functions'
 
-const extractPager = ({ page, pageSize }) => ({ page, pageSize })
 
 const ConferenceListContainer = () => {
   const [filters, setFilters] = useState(generateDefaultFilters())
