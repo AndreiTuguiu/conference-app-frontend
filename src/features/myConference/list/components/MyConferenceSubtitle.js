@@ -11,7 +11,7 @@ const MyConferenceSubtitle = props => {
   const { t } = useTranslation()
 
   return (
-    <Grid container lg={12}>
+    <Grid container item lg={12}>
       <Grid item lg={2}>
         <PermIdentityIcon />
       </Grid>
