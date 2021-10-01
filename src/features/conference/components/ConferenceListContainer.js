@@ -9,7 +9,7 @@ import { CONFERENCE_LIST_QUERY } from '../gql/queries/ConferenceListQuery'
 import { useEmail } from 'hooks/useEmail'
 import Pagination from '@bit/totalsoft_oss.react-mui.pagination'
 import { useFooter } from 'providers/AreasProvider'
-import { PagesRounded } from '@material-ui/icons'
+// import { PagesRounded } from '@material-ui/icons'
 import { extractPager } from 'utils/functions'
 
 

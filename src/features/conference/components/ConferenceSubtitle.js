@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { props } from 'ramda'
+// import { props } from 'ramda'
 import { useTranslation } from 'react-i18next'
 import { Grid, Typography } from '@material-ui/core'
 import PermIdentityIcon from '@material-ui/icons/PermIdentity'
