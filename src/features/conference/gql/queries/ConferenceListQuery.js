@@ -1,6 +1,7 @@
 import { gql } from '@apollo/client'
 import Fragments from './fragment'
 
+
 export const CONFERENCE_LIST_QUERY = gql`
   query conferenceList($pager: PagerInput!, $filters: ConferenceFilterInput, $email: String!) {
     conferenceList(pager: $pager, filters: $filters) {

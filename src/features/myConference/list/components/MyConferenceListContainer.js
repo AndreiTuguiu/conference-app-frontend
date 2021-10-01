@@ -12,7 +12,6 @@ import { useHistory } from 'react-router'
 import { useQueryWithErrorHandling } from 'hooks/errorHandling'
 import { CONFERENCE_LIST_QUERY } from 'features/conference/gql/queries/ConferenceListQuery'
 import { useEmail } from 'hooks/useEmail'
-import { filter } from 'lodash'
 import Pagination from '@bit/totalsoft_oss.react-mui.pagination'
 
 const MyConferenceListContainer = () => {

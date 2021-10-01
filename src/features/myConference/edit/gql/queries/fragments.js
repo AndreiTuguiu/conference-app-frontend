@@ -26,7 +26,7 @@ const Fragments = {
       nationality
       rating
     }
-    `
+  `
 }
 
 export default Fragments
