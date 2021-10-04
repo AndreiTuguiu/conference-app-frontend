@@ -1,7 +1,7 @@
 import React, { useCallback } from "react";
 import PropTypes from 'prop-types'
 import { useTranslation } from "react-i18next";
-import state from "constants/attendeeStatus";
+// import state from "constants/attendeeStatus";
 import { Grid, Typography } from "@material-ui/core";
 import Button from "@bit/totalsoft_oss.react-mui.button";
 import { useHistory } from "react-router";
@@ -21,7 +21,7 @@ const MyConferenceContent = props => {
 
 
     return (
-        <Grid container>
+        <Grid container spacing={2}>
             <Grid item xs={12}>
                 <Typography>{`${startDateFormatted} - ${endDateFormatted}`}</Typography>
             </Grid>

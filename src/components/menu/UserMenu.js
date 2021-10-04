@@ -2,7 +2,7 @@ import React, { useState, useCallback } from 'react'
 import PropTypes from 'prop-types'
 import { NavLink } from 'react-router-dom'
 
-import { List, ListItem, Collapse, ListItemText, ListItemIcon, makeStyles, Tooltip } from '@material-ui/core'
+import { List, ListItem, Collapse, ListItemText, ListItemIcon, makeStyles} from '@material-ui/core'
 
 import userMenuStyle from 'assets/jss/components/userMenuStyle'
 import cx from 'classnames'
