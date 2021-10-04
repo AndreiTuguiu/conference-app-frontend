@@ -7,7 +7,7 @@ import Button from "@bit/totalsoft_oss.react-mui.button";
 
 
 const ConferenceContent = props => {
-    const {conference,onAttend} = props
+    const {conference,onAttend,onWithdraw} = props
     const { status, startDate, endDate, type, category } = conference
     // confirm.state === state.Attended
 
@@ -36,7 +36,7 @@ const ConferenceContent = props => {
             <Grid container>
                 <Grid item xs={12}>
                     {showJoin && <Button right color="success" size={"sm"}>{t('Conferences.Join')}</Button>}
-                    {showWithdraw && <Button right color="danger" size={"sm"}>{t('Conferences.Withdraw')}</Button>}
+                    {showWithdraw && <Button onClick={onWithdraw(conference?.id)} right color="danger" size={"sm"}>{t('Conferences.Withdraw')}</Button>}
                     {showAttend && <Button onClick={onAttend(conference?.id)} right color="info" size={"sm"}>{t('Conferences.Attend')}</Button>}
                 </Grid>
             </Grid>
@@ -46,7 +46,8 @@ const ConferenceContent = props => {
 
 ConferenceContent.propTypes = {
     conference: PropTypes.object.isRequired,
-    onAttend:PropTypes.func.isRequired
+    onAttend:PropTypes.func.isRequired,
+    onWithdraw:PropTypes.func.isRequired
 }
 
 export default ConferenceContent

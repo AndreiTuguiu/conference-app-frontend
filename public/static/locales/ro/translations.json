@@ -28,7 +28,8 @@
     "Withdraw": "Retrage-te",
     "StatusNotSet": "Nu participi",
     "SuccessfullyAttended":"Felicitari! Te-ai inscris cu succes la conferinta! Vei fi notificat cu 5 minute inainte sa inceapa.",
-    "QRCodeMessage":"Te-ai inscris cu succes la conferinta! Vei fi notificat cu 5 minute inainte sa inceapa. Foloseste urmatorul cod pentru a accesa conferinta: {{code}}"
+    "QRCodeMessage":"Te-ai inscris cu succes la conferinta! Vei fi notificat cu 5 minute inainte sa inceapa. Foloseste urmatorul cod pentru a accesa conferinta: {{code}}",
+    "SuccessfullyWithdrawn":"Retras cu succes!"
   },
   "My Conference": {
     "Edit":"Editeaza",
@@ -46,6 +47,7 @@
   },
   "General": {
     "Congratulations":"Felicitari",
+    "SuggestedConferences":"Aici sunt niste conferinte sugerate",
     "Buttons": {
       "ApplyFilters": "Aplica filtre",
       "ResetFilters": "Reseteaza filtre",
