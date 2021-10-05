@@ -22,10 +22,10 @@ const MyConferenceInfo = props => {
       </Grid>
       <Grid item lg={12} container spacing={3}>
         <Grid item xs={12} sm={6} lg={3}>
-          <DateTime label={t('Conference.StartDate')} showTime={true} clearable value={startDate} onChange={handleChange('startDate')} />
+          <DateTime label={t('Conference.StartDate')} showTime={true} clearable value={startDate} onChange={handleChange('startDate')} views={['date','hours','minutes']} />
         </Grid>
         <Grid item xs={12} sm={6} lg={3}>
-          <DateTime label={t('Conference.EndDate')} showTime={true} clearable value={endDate} onChange={handleChange('endDate')} />
+          <DateTime label={t('Conference.EndDate')} showTime={true} clearable value={endDate} onChange={handleChange('endDate')} views={['date','hours','minutes']}/>
         </Grid>
         <Grid item xs={12} sm={6} lg={3}>
           <Autocomplete
