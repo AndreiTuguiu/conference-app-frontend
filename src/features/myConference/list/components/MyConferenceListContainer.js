@@ -54,7 +54,7 @@ const MyConferenceListContainer = () => {
   useEffect(() => {
     setHeader(
       <MyConferenceHeader
-        title={t('NavBar.My Conferences')}
+        title={t('NavBar.MyConferences')}
         actions={<AddButton key='addButton' title={t('Conferences.AddConference')} onClick={handleAddClick} />}
       />
     )

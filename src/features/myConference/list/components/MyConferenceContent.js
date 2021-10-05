@@ -31,10 +31,10 @@ const MyConferenceContent = props => {
             <Grid container spacing={2}>
                 <Grid item xs={12}>
                     <Button right size='sm' color="danger">
-                        {t('My Conference.Delete')}
+                        {t('MyConference.Delete')}
                     </Button>
                     <Button right size='sm' color="info" onClick={handleEditClick}>
-                        {t('My Conference.Edit')}
+                        {t('MyConference.Edit')}
                     </Button>
                 </Grid>
             </Grid>

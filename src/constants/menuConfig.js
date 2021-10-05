@@ -10,7 +10,7 @@ const menuItems = [
   { icon: <Settings />, text: 'NavBar.Settings', path: '/settings', name: 'Settings' },
   { icon: <HomeIcon />, text: 'NavBar.MyFirstMenu', path: '/helloWorld', name: 'MyFirstMenu' },
   { icon: <Event />, text:'NavBar.Conferences', path:'/conference', name: 'Conferences' },
-  { icon: <EventNote />, text:'NavBar.My Conferences', path:'/myConference', name: 'My Conferences' }
+  { icon: <EventNote />, text:'NavBar.MyConferences', path:'/myConference', name: 'MyConferences' }
 ]
 
 export default menuItems

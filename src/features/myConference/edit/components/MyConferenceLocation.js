@@ -74,18 +74,16 @@ const MyConferenceLocation = props => {
           <CustomTextField
             label={t('Location.Latitude')}
             fullWidth
-            isNumeric
             value={latitude ?? emptyString}
-            onChange={handleDispatch('latitude')}
+            onChange={onTextBoxChange(handleDispatch('latitude'))}
           />
         </Grid>
         <Grid item xs={12} sm={6} lg={3}>
           <CustomTextField
             label={t('Location.Longitude')}
             fullWidth
-            isNumeric
             value={longitude ?? emptyString}
-            onChange={handleDispatch('longitude')}
+            onChange={onTextBoxChange(handleDispatch('longitude'))}
           />
         </Grid>
       </Grid>

@@ -44,7 +44,8 @@ MyConference.propTypes = {
   counties: PropTypes.array,
   cities: PropTypes.array,
   conference: PropTypes.object,
-  dispatch: PropTypes.func
+  dispatch: PropTypes.func,
+
 }
 
 export default MyConference
