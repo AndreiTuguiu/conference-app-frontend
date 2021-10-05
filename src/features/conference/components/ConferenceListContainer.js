@@ -42,7 +42,7 @@ const ConferenceListContainer = () => {
         setSuggestedConference(result?.attend?.suggestedConferences)
         setOpen(true)
       }
-      addToast(t('Conferences.SuccessfullyAttended'))
+      addToast(t('Conferences.SuccessfullyAttended'),'success')
     }
   })
   const handleAttend = useCallback(
@@ -61,7 +61,7 @@ const ConferenceListContainer = () => {
 
   const [withdraw] = useMutation(WITHDRAW_CONFERENCE, {
     onCompleted: () => {
-      addToast(t('Conferences.SuccessfullyWithdrawn'))
+      addToast(t('Conferences.SuccessfullyWithdrawn'),'success')
       refetch()
     },
     onError: showError
