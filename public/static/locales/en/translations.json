@@ -53,7 +53,8 @@
       "AddConference":"Add conference",
       "Save":"Save",
       "AddSpeaker":"Add Speaker",
-      "DeleteSpeaker": "Delete speaker"
+      "DeleteSpeaker": "Delete speaker",
+      "Close":"Exit Conference"
     }
   },
   "Conference":{

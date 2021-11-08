@@ -56,7 +56,8 @@
       "AddConference":"Adauga Conferinta",
       "Save":"Salveaza",
       "AddSpeaker":"Adauga orator",
-      "DeleteSpeaker": "Sterge orator"
+      "DeleteSpeaker": "Sterge orator",
+      "Close":"Iesi din Conferinta"
     }
   },
   "UserMenu": {
